@@ -17,7 +17,7 @@
 		var SetTime = 180;
 		function msg_time() {
 			m = Math.floor(SetTime / 60) + ":" + (SetTime % 60);
-			var msg = "Elapsed Time: <font color='red'>" + m + "</font>";
+			var msg = "Time Left: <font color='red'>" + m + "</font>";
 			document.all.ViewTimer.innerHTML = msg;	
 			SetTime--;
 			if (SetTime < 0) {
